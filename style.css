@@ -1,0 +1,148 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: url(https://i0.wp.com/notaterapia.com.br/wp-content/uploads/2016/12/clarisseulisses.jpg?fit=2628%2C1748);
+    background-size: cover  ;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    height: 60px;
+    background: rgba(186, 98, 86, 0.7);
+    z-index: 10;
+}
+
+.titulomenu {
+    font-size: 40px;
+    color: black;
+}
+
+.menu {
+    height: 50px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.itemmenu {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 80px;
+    height: 40px;
+    margin: 20px;
+    background: none;
+    border-radius: 20%;
+}
+
+.itemmenu:hover {
+    cursor: pointer;
+}
+
+
+.first {
+    height: 560px;
+    background: #ffff transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#tributo {
+    font-size: 70px;
+    font-style: italic;
+    color: #fa21c7;
+    text-align: center;
+}
+
+
+.second {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 560px;
+    background: url(https://lunetas.com.br/wp-content/uploads/2018/12/clarice-lispector-para-criancas-1.jpg);
+    background-size: cover  ;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.poesias, .poetisas {
+    background-color: #fff transparent;
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.poesias {
+    flex-direction: column;
+}
+
+.poesiash2 {
+    font-size: 70px;
+    margin: 20px;
+    color: #530b42;
+}
+
+.poesiasparagrafo {
+    font-size: x-large;
+    width: 300px;
+    text-align: justify;
+    margin: 20px;
+}
+
+.poetisas {
+    font-size: 70px;
+    margin: 20px;
+    color: #530b42;
+}
+
+.third {
+    height: 560px;
+    background: #ffff transparent;
+}
+
+.redesocial {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 200px;
+    margin: 140px 30px 0px 30px;
+}
+
+footer {
+    height: 100px;
+    background: black;
+}
+
+footer h2 {
+    text-decoration: none;
+    color: #fa21c7;
+    margin: 30px 70px;
+    color: whitesmoke;
+}
